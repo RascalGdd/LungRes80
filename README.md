@@ -1,7 +1,5 @@
 # LungRes80: Towards Tangled Surgical Workflow Recognition in Video-Assisted Thoracoscopic Surgery
 
-Diandian Guo, Shu Yang, Jialun Pei, Jiaao Li, Yanhui Wan, Hao Chen, and Pheng-Ann Heng
-
 ## Abstract
 
 Video-Assisted Thoracoscopic Surgery (VATS) is a minimally invasive procedure developed to remove specific lung segments for the treatment of early-stage lung diseases. The surgical procedure involves intricate vascular and bronchial anatomy to preserve as much lung tissue as possible, minimizing impact on the pulmonary function. To assist in monitoring and early warning of this high-risk surgical workflow, we build a new dataset, LungRes80, including 269,806 video frames with phase annotations sampled from 80 VATS cases.
