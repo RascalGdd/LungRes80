@@ -19,3 +19,20 @@ Furthermore, a new metric, called the Attentional Distraction Coefficient (ADC),
 - Pretrained models
 - Evaluation scripts
 - Documentation
+
+
+## Citation
+
+If this helps you, please cite this work:
+
+```bibtex
+@article{guo2026lungres80,
+  title={LungRes80: Towards tangled surgical workflow recognition in video-assisted thoracoscopic surgery},
+  author={Guo, Diandian and Yang, Shu and Pei, Jialun and Li, Jiaao and Wan, Yanhui and Chen, Hao and Heng, Pheng-Ann},
+  journal={Medical Image Analysis},
+  pages={104237},
+  year={2026},
+  publisher={Elsevier}
+}
+```
+
