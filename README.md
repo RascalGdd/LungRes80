@@ -22,11 +22,26 @@ conda activate LungReco
 pip install -r requirements_lungreco.txt
 ```
 
-The following resources are required:
+## Resources
 
-- the LungRes80 dataset;
-- the Kinetics-400 pretrained `TimeSformer_divST_8x32_224_K400.pyth` checkpoint;
-- LLaVA v1.5 7B, referenced by default as `liuhaotian/llava-v1.5-7b`.
+### Dataset access
+
+LungRes80 is available for academic research. Please complete the
+[LungRes80 Dataset Application](https://docs.google.com/forms/d/e/1FAIpQLScaFfQdTi9mqJMiBsH6ePlA2yXsDSmMOq45RdAmZMp54HtJWg/viewform?usp=publish-editor)
+using an institutional or educational email address. The download link is sent
+to eligible applicants by email after submission.
+
+### Pretrained checkpoints
+
+The following pretrained resources are required:
+
+- [TimeSformer divided space-time, 8 frames, Kinetics-400](https://www.dropbox.com/scl/fi/zcn6byf10i4r0hhojjten/TimeSformer_divST_8x32_224_K400.pyth?rlkey=azfkkmb0qalhgt9vxofhwje54&dl=1) (`TimeSformer_divST_8x32_224_K400.pyth`)
+- [LLaVA v1.5 7B](https://huggingface.co/liuhaotian/llava-v1.5-7b) (`liuhaotian/llava-v1.5-7b`)
+
+The TimeSformer checkpoint must be downloaded to a local path and supplied
+through `PRETRAINED_PATH`. LLaVA can be referenced directly by its Hugging Face
+model ID through `LLAVA_MODEL_PATH`; it will be downloaded and cached on first
+use.
 
 ## Data Preparation
 
