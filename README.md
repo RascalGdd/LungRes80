@@ -1,4 +1,4 @@
-# LungRes80: Towards Tangled Surgical Workflow Recognition in Video-Assisted Thoracoscopic Surgery
+# [MedIA 2026] LungRes80: Towards Tangled Surgical Workflow Recognition in Video-Assisted Thoracoscopic Surgery
 
 ## Overview
 
