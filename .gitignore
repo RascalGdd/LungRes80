@@ -5,3 +5,18 @@ __pycache__/
 .env
 .venv/
 venv/
+
+# Training artifacts
+.history
+pretrain_params/
+*.log
+*.pth
+*.pt
+*.ckpt
+*.pickle
+*.pkl
+checkpoint*/
+results/
+val_predictions/
+test_predictions/
+wandb/
